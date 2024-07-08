@@ -17,5 +17,5 @@ jobs:
             SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         with:
           args: >
-              -Dsonar.organization=Newsonarscan
+              -Dsonar.organization=newsonarscan
               -Dsonar.projectKey=Karthisonar
